@@ -59,7 +59,7 @@ try{
       currencyCode: "GBP",
       orderId: orderId,
       paymentInstrument: {
-        token: token,
+        'token': 'tok_auth_authorized_card',
       },
     }),
   });
